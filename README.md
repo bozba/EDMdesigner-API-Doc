@@ -1035,7 +1035,6 @@ Creates a project/template to a specified user using an another template
   * _id {String} /REQUIRED/ The MongoDB _id of the template we want to copy to the target user
   * title {String} The title of the new template, if it is not given, then the project's name will be 'Untitled'
   * description {String} Description of the template, by defaullt it is an empty string
-  * document {Object} An object, which represents a template. By setting this param, you can create new projects based on your prepared custom templates
 
 ####Answer:
 Project object:
