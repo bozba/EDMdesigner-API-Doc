@@ -1400,6 +1400,8 @@ Type: POST
 
 We will post an object whit only one parameter:
   * urls {Array} It contains the urls of the images which are used in the template
+  * from_userId {String} The id of the user from who we want to copy a template to the target user
+  * target_userId {String} The id of the user who will get the new template. (You need to 'copy' the given images to this user)
 
 Your response to our post request should be an object. This object the following "key - value" pairs: the old url (which you get from the urls array we sent with the post request). should be the key and the value should be the parameters of the new image (like the one you need to send beack in the [upload route](#upload-route):
   * url {String} /REQUIRED/ The url where the newly uploaded image can be found.
